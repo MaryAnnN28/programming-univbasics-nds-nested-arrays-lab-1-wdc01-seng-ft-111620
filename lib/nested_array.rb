@@ -60,7 +60,7 @@ produce_storage_room = [
 produce_storage_room[0][2] = "Lemons"
 produce_storage_room
 
-def matrix_update(matrix, row, column, new_value)
+def matrix_update(produce_storage_room, 0, 2, "Lemons")
   produce_storage_room[0][2] = "Onions"
   produce_storage_room
 end
