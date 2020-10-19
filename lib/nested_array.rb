@@ -53,13 +53,13 @@ end
 # Given any matrix (array of arrays), a row index and a column index,
 # Update the matrix location at that row and column to have the value of new_value
 # Return the updated matrix
+
 def matrix_update(matrix, row, column, new_value)
   updated_produce_storage = [
-    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"],
+    ["Grapefruit", "Pineapple", "Lemons", "Watermelon", "Eggplant"],
     ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
   ]
-  updated_produce_storage[0][2] = "Lemons"
+  updated_produce_storage[0][2] = "Onions"
   updated_produce_storage
 end
-matrix_update(updated_produce_storage, 0, 2, "Onions")
-matrix_update
+
