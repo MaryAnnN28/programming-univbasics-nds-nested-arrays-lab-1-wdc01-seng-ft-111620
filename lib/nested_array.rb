@@ -46,6 +46,7 @@ def matrix_lookup(matrix, row, column)
   CONVENTIONAL_PRODUCE,
   ORGANIC_PRODUCE,
 ]
+end 
 produce_storage_room[1][1]
 produce_storage_room[1][3]
 end
