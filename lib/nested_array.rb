@@ -65,7 +65,7 @@ def matrix_update(matrix, row, column, value)
   produce_storage_room
   binding.pry
 end
-
+binding.pry
 matrix_update(matrix_update, 0, 2, "Onions")
 binding.pry
 
