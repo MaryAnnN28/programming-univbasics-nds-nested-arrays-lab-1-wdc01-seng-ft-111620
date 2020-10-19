@@ -61,7 +61,7 @@ def matrix_update(matrix, row, column, value)
   binding.pry
   produce_storage_room = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE]
   matrix[row][column] = [value]
-  produce_storage_room[0][2] = "Lemons"
+  produce_storage_room[0][2] = ["Lemons"]
   produce_storage_room
   binding.pry
 end
