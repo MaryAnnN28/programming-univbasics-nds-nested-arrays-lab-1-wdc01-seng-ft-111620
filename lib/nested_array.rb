@@ -43,11 +43,11 @@ end
 # Return the matrix's content at that row and and column
 def matrix_lookup(matrix, row, column)
   produce_storage_room = [
-  CONVENTIONAL_PRODUCE,
-  ORGANIC_PRODUCE,
-]
-produce_storage_room[1][1]
+    CONVENTIONAL_PRODUCE, 
+    ORGANIC_PRODUCE,
+  ]
 end
+matrix_lookup(produce_storage_room, 1, 1)
 
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index,
