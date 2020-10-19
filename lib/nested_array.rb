@@ -59,4 +59,5 @@ def matrix_update(matrix, row, column, value)
   assembled_matrix
 end
 
+matrix_update([assembled_matrix][0][2]) = "Onions"
 matrix_update
