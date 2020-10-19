@@ -1,4 +1,5 @@
 # Examples inspired by U. S. National Organic Standards
+require 'pry'
 
 ORGANIC_PRODUCE = [
   "Strawberries",
@@ -61,6 +62,7 @@ def matrix_update(matrix, row, column, value)
   matrix[row][column] = [value]
   produce_storage_room[0][2] = "Lemons"
   produce_storage_room
+  binding.pry
 end
 
 matrix_update(matrix_update, 0, 2, "Onions")
