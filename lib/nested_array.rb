@@ -59,6 +59,7 @@ def matrix_update(matrix, row, column, value)
   produce_storage_room = [CONVENTIONAL_PRODUCE, ORGANIC_PRODUCE,]
 
   produce_storage_room[0][2] = "Lemons"
+  produce_storage_room
 end
 
 matrix_update(assembled_matrix, 0, 2, "Onions")
