@@ -64,4 +64,3 @@ def matrix_update(matrix, row, column, new_value)
 end
 matrix_update(produce_storage_room, 0, 2, "Onions")
 matrix_update
-end
