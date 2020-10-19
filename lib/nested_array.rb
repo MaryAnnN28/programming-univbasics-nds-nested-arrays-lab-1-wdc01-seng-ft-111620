@@ -46,9 +46,9 @@ def matrix_lookup(matrix, row, column)
     CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE,
   ]
-end
 matrix_lookup(produce_storage_room, 1, 1)
 matrix_lookup(produce_storage_room, 1, 3)
+end
 
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index,
