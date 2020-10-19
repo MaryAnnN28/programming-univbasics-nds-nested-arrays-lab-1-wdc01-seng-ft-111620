@@ -64,6 +64,7 @@ def matrix_update(matrix, row, column, value)
   produce_storage_room[0][2] = "Lemons"
   produce_storage_room
   binding.pry
+  puts hello
 end
 
 matrix_update(matrix_update, 0, 2, "Onions")
