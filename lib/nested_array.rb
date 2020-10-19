@@ -62,4 +62,3 @@ def matrix_update(matrix, row, column, new_value)
   updated_produce_storage[0][2] = "Onions"
   updated_produce_storage
 end
-
