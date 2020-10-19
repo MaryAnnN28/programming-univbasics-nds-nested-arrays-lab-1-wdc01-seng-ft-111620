@@ -53,12 +53,15 @@ end
 # Given any matrix (array of arrays), a row index and a column index,
 # Update the matrix location at that row and column to have the value of new_value
 # Return the updated matrix
+produce_storage_room = [
+  CONVENTIONAL_PRODUCE,
+  ORGANIC_PRODUCE,
+]
+produce_storage_room[0][2] = "Lemons"
+produce_storage_room
 
-def matrix_update(matrix, row, column, new_value)
-  produce_storage_room = [
-    CONVENTIONAL_PRODUCE,
-    ORGANIC_PRODUCE,
-  ]
-  produce_storage_room[0][2] = "Lemons"
+def matrix_update(matrix, row, column, new_value)  
+  produce_storage_room[0][2] = "Onions"
   produce_storage_room
 end
+
