@@ -43,7 +43,7 @@ end
 # Return the matrix's content at that row and and column
 def matrix_lookup(matrix, row, column)
   produce_storage_room = [
-    CONVENTIONAL_PRODUCE,
+    CONVENTIONAL_PRODUCE, 
     ORGANIC_PRODUCE,
   ]
 matrix_lookup(produce_storage_room, 1, 1)
@@ -55,11 +55,10 @@ end
 # Return the updated matrix
 def matrix_update(matrix, row, column, new_value)
   produce_storage_room = [
-    CONVENTIONAL_PRODUCE,
-    ORGANIC_PRODUCE,
+    CONVENTIONAL_PRODUCE = ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
+    ORGANIC_PRODUCE = ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
   ]
   produce_storage_room[0][2] = "Lemons"
   produce_storage_room
 end
-produce_storage_room[0][2] = "Onions"
-produce_storage_room
+
