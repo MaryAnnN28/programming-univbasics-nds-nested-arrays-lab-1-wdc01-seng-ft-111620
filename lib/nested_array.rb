@@ -56,9 +56,11 @@ end
 # Return the updated matrix
 
 def matrix_update(matrix, row, column, value)
-  assembled_matrix[0][2] ="Lemons"
-  assembled_matrix
+  produce_storage_room = [
+    CONVENTIONAL_PRODUCE,
+    ORGANIC_PRODUCE,
+  ]
+  produce_storage_room[0][2] = "Lemons"
 end
 
-matrix_update([assembled_matrix][0][2]) = "Onions"
-matrix_update
+
