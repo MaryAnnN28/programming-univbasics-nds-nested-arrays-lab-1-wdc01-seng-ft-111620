@@ -54,9 +54,10 @@ end
 # Update the matrix location at that row and column to have the value of new_value
 # Return the updated matrix
 def matrix_update(matrix, row, column, new_value)
-    CONVENTIONAL_PRODUCE = ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
-    ORGANIC_PRODUCE = ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
-
+  updated_product = [
+    ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"], 
+    ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
+  ]
   produce_storage_room[0][2] = "Lemons"
   produce_storage_room
 end
