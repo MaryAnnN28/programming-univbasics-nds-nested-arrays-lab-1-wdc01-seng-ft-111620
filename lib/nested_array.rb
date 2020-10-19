@@ -48,6 +48,7 @@ def matrix_lookup(matrix, row, column)
   ]
 end
 matrix_lookup(produce_storage_room, 1, 1)
+matrix_lookup(produce_storage_room, 1, 3)
 
 def matrix_update(matrix, row, column, new_value)
   # Given any matrix (array of arrays), a row index and a column index,
