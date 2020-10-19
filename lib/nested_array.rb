@@ -60,7 +60,7 @@ def matrix_update(matrix, row, column, value)
   new_storage_room = []
 
   produce_storage_room[0][2] = "Lemons"
-  new_storage_room = produce_storage_room
+  produce_storage_room
 end
 
 matrix_update(produce_storage_room, 0, 2, "Onions")
