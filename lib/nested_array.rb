@@ -43,7 +43,7 @@ end
 # Return the matrix's content at that row and and column
 def matrix_lookup(matrix, row, column)
   produce_storage_room = [
-    CONVENTIONAL_PRODUCE, 
+    CONVENTIONAL_PRODUCE,
     ORGANIC_PRODUCE,
   ]
 end
