@@ -62,4 +62,5 @@ def matrix_update(matrix, row, column, value)
   produce_storage_room
 end
 
-matrix_update(assembled_matrix, 0, 2, "Onions")
+matrix_update[0][2] = "Onions"
+matrix_update
