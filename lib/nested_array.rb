@@ -56,7 +56,7 @@ end
 def matrix_update(matrix, row, column, new_value)
     CONVENTIONAL_PRODUCE = ["Grapefruit", "Pineapple", "Oranges", "Watermelon", "Eggplant"]
     ORGANIC_PRODUCE = ["Strawberries", "Potatoes", "Grapes", "Avocadoes", "Asparagus"]
-  
+
   produce_storage_room[0][2] = "Lemons"
   produce_storage_room
 end
